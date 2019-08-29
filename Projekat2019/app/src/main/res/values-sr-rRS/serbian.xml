@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projekat2019</string>
+    <string name="play_game">Igraj</string>
+    <string name="game_options">Opcije</string>
+    <string name="game_stats">Statistika</string>
+    <string name="save">sacuvaj</string>
+    <string name="cancel">ponisti</string>
+    <string name="reset">resetuj</string>
+    <string name="grass">Trava</string>
+    <string name="hard">Beton</string>
+    <string name="soft">Parket</string>
+    <string name="continue_game">Nastavi</string>
+    <string name="close">zatvori</string>
+    <string name="Argentina">Argentina</string>
+    <string name="Brazil">Brazil</string>
+    <string name="England">Engleska</string>
+    <string name="France">Francuska</string>
+    <string name="Germany">Nemacka</string>
+    <string name="Italy">Italija</string>
+    <string name="Portugal">Portugal</string>
+    <string name="Serbia">Srbija</string>
+    <string name="Spain">Spanija</string>
+    <string name="Switzerland">Svajcarska</string>
+    <string name="teamSelectError">Oba igraca ne mogu izabrati isti tim</string>
+
+
+    <string-array name="dificulties">
+        <item>Pocetnik</item>
+        <item>Pro</item>
+        <item>Superzvezda</item>
+    </string-array>
+
+    <string-array name="speeds">
+        <item>Sporo</item>
+        <item>Srednje</item>
+        <item>Brzo</item>
+    </string-array>
+
+    <string name="game_dificulty">Tezina</string>
+    <string name="game_speed">Brzina</string>
+    <string name="previous">prethodni</string>
+    <string name="next">sledeci</string>
+
+    <string name="player_1_name">Igrac 1</string>
+    <string name="player_2_name">Igrac 2</string>
+    <string name="time_game_type">Vreme</string>
+    <string name="goals_game_type">Broj golova</string>
+    <string name="player_names_validation">Morate uneti nazive za oba igraca</string>
+
+    <string-array name="goals">
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="times">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+</resources>

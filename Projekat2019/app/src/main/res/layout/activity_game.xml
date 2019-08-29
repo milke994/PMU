@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewPlayer1Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="player 1"
+            android:textSize="20sp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="3"
+            android:gravity="right"/>
+
+        <TextView
+            android:id="@+id/textViewPlayer1Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20sp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="5"/>
+
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="3:00"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:id="@+id/textViewPlayer2Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="player 2"
+            android:textSize="20sp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="3"
+            android:gravity="right"/>
+
+        <TextView
+            android:id="@+id/textViewPlayer2Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20sp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="5"/>
+    </LinearLayout>
+
+    <com.example.dusanmilic.projekat2019.drawings.GameView
+        android:id="@+id/game_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="fitXY" />
+
+</LinearLayout>

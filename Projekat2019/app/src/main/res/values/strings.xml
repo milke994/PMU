@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Projekat2019</string>
+    <string name="play_game">Play</string>
+    <string name="game_options">Options</string>
+    <string name="game_stats">Statistics</string>
+    <string name="save">save</string>
+    <string name="cancel">cancel</string>
+    <string name="grass">Grass</string>
+    <string name="hard">Hard</string>
+    <string name="soft">Soft</string>
+    <string name="continue_game">Continue</string>
+
+    <string-array name="dificulties">
+        <item>Begginer</item>
+        <item>Pro</item>
+        <item>Superstar</item>
+    </string-array>
+
+    <string-array name="speeds">
+        <item>Slow</item>
+        <item>Medium</item>
+        <item>Fast</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="game_dificulty">Dificulty</string>
+    <string name="game_speed">Speed</string>
+    <string name="previous">previous</string>
+    <string name="next">next</string>
+    <string name="player_1_name">Player 1 name</string>
+    <string name="player_2_name">Player 2 name</string>
+    <string name="time_game_type">Time</string>
+    <string name="goals_game_type">Goals</string>
+    <string name="player_names_validation">You have to insert names for both players</string>
+    <string name="reset">reset</string>
+    <string name="close">close</string>
+    <string name="Argentina">Argentina</string>
+    <string name="Brazil">Brazil</string>
+    <string name="England">England</string>
+    <string name="France">France</string>
+    <string name="Germany">Germany</string>
+    <string name="Italy">Italy</string>
+    <string name="Portugal">Portugal</string>
+    <string name="Serbia">Serbia</string>
+    <string name="Spain">Spain</string>
+    <string name="Switzerland">Switzerland</string>
+    <string name="teamSelectError">Both players cant select same teams</string>
+
+    <string-array name="goals">
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="times">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+
+</resources>
